@@ -1,0 +1,115 @@
+#test {
+	max-width:500px;
+	border-radius:2px;
+	box-shadow: 0 0 20px #1D9621;
+	-moz-box-shadow: 0 0 20px #1D9621;
+	-webkit-box-shadow: 0 0 20px #1D9621;
+	padding:15px 35px 35px 35px;
+	display: none;
+	background-color: #ffe6ff;
+	margin: 9px auto 0px;
+}
+
+#test_status {
+	text-align: center;
+}
+
+#start {
+    display: block;
+    max-width: 110px;
+    height: auto;
+    background-color: #274FA9;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 9px auto 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 6px 6px 5px #888888;
+}
+
+#start:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#start:active {
+	opacity: 0.5;
+}
+
+#restart {
+    display: none;
+    max-width: 173px;
+    height: auto;
+    background-color: #ff6666;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 25px auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003300;
+    text-align: center;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+#restart:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#restart:active {
+	opacity: 0.5;
+}
+
+#knopka {
+	max-width: 214px;
+	height: 50px;
+	background-color: #ffcc00;
+	padding: 13px 5px 13px 5px;
+	border-radius:5px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#003300;
+	text-align: center;
+	box-shadow: 2px 3px 5px #888888;
+}
+
+#knopka:hover {
+	cursor: pointer;
+	background-color: #cc33ff;
+	max-width:224px;
+	height: 60px;
+	padding: 19px 9px 19px 9px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#knopka:active {
+	max-width:228px;
+	height: 65px;
+	background-color: grey;
+	text-align: center;
+	padding: 21px 11px 21px 11px;
+	font-size: 14px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    display: inline;
+    margin-right: 5px;
+  }
+
+#knopka a {
+	color: #2a62bc;
+	text-decoration: initial;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+	.wrapdviknopky {position:relative; margin-bottom: 50px;}
+	#knopka {max-width:150px;font-size:11px;position: absolute;right: 55px;top: 39px; height: 22px;padding-top: 7px;}
+	#knopka:hover {background-color: #cc33ff;max-width:165px;height: 30px;padding: 19px 9px 19px 9px;text-align: center;font-size: 11px;}
+	#knopka:active {max-width:175px;height: 32px;background-color: grey;text-align: center;padding: 21px 11px 21px 11px;font-size: 11px;}
+	#restart {max-width:150px;font-size:11px;position: absolute;right: 55px; bottom: -29px; height: 19px;padding-top: 13px;}
+	#restart:hover {background-color: #cc33ff;max-width:165px;height: 30px;padding: 19px 9px 19px 9px;text-align: center;font-size: 11px;}
+	#restart:active {max-width:175px;background-color: grey;height: 32px;text-align: center;padding: 21px 11px 21px 11px;font-size: 11px;}
+	#start:hover {font-size:19px}	
+}
